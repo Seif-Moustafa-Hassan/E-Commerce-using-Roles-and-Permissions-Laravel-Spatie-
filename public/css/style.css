@@ -1,0 +1,68 @@
+.create-form {
+    border: 2px solid #343a40;
+    border-radius: 7px;
+}
+
+.update_btn:hover {
+    text-decoration: none !important;
+}
+
+.bag_hover {
+    overflow: hidden;
+}
+
+.bag_details {
+    cursor: pointer;
+}
+
+.bag_details img {
+    transition: 0.5s;
+}
+
+.bag_details:hover img {
+    transform: scale(1.3);
+}
+
+.bag_details:hover .bag_name {
+    text-decoration: underline;
+}
+
+.add_to_cart_btn {
+    border: 1px solid black;
+}
+
+.add_to_cart_btn:hover {
+    border: 2px solid black;
+    /*
+    background-color: #343a40 !important;
+    color: white !important;
+    */
+}
+
+.cancel_order_btn {
+    border: 1px solid #dc3545;
+}
+
+.cancel_order_btn:hover {
+    border: 2px solid #dc3545;
+}
+
+.remove_from_cart_btn {
+    border: 1px solid red;
+}
+
+.remove_from_cart_btn:hover {
+    border: 2px solid red;
+}
+
+.bg_gray {
+    background-color: gray;
+}
+
+.order_cancelled_danger_btn {
+    border: 1px solid white;
+}
+
+.order_cancelled_danger_btn:hover {
+    border: 2px solid white;
+}
